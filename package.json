@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-dom": "^1.11.0",
+    "chai-sorted": "^0.2.0",
+    "cypress": "^9.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration/"
+  }
+}
